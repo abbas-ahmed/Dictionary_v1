@@ -1,0 +1,153 @@
+
+            :root {
+                --primary-color: #4fc08d;
+                --secondary-color: #35495e;
+            }
+            
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #f8f9fa;
+                color: #333;
+                line-height: 1.6;
+            }
+            
+            .card {
+                border: none;
+                border-radius: 12px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease;
+            }
+            
+            .card:hover {
+                transform: translateY(-5px);
+            }
+            
+            .btn-vue {
+                background-color: var(--primary-color);
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 8px;
+                font-weight: 500;
+            }
+            
+            .btn-vue:hover {
+                background-color: #3da978;
+                color: white;
+            }
+            
+            .vocab-display {
+                min-height: 200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 2rem;
+            }
+            
+            .word {
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: var(--secondary-color);
+            }
+            
+            .meaning {
+                font-size: 1.5rem;
+                color: #666;
+                margin-top: 1rem;
+            }
+            
+            .sentence {
+                font-style: italic;
+                margin-top: 2rem;
+                font-size: 1.2rem;
+            }
+            
+            .translation {
+                color: #777;
+                margin-top: 0.5rem;
+            }
+            
+            .action-buttons {
+                display: flex;
+                gap: 1rem;
+                justify-content: center;
+                margin-top: 2rem;
+            }
+            
+            .progress-container {
+                margin-top: 2rem;
+            }
+            
+            .progress-bar {
+                background-color: var(--primary-color);
+            }
+            
+            .header {
+                text-align: center;
+                margin-bottom: 2rem;
+                color: var(--secondary-color);
+            }
+            
+            .header h1 {
+                font-weight: 700;
+            }
+
+            /* Properties Filter Styles */
+            .properties-filter {
+                background-color: white;
+                border-radius: 12px;
+                padding: 1.5rem;
+                margin-bottom: 2rem;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            }
+
+            .filter-section {
+                margin-bottom: 1.5rem;
+            }
+
+            .filter-section h3 {
+                font-size: 1.1rem;
+                color: var(--secondary-color);
+                margin-bottom: 0.75rem;
+                padding-bottom: 0.5rem;
+                border-bottom: 1px solid #eee;
+            }
+
+            .filter-options {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+
+            .filter-option {
+                position: relative;
+            }
+
+            .filter-option input[type="checkbox"] {
+                position: absolute;
+                opacity: 0;
+            }
+
+            .filter-option label {
+                display: block;
+                padding: 0.5rem 1rem;
+                background-color: #f8f9fa;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                border: 1px solid #dee2e6;
+            }
+
+            .filter-option input[type="checkbox"]:checked + label {
+                background-color: var(--primary-color);
+                color: white;
+                border-color: var(--primary-color);
+            }
+
+            .filter-option label:hover {
+                background-color: #e9ecef;
+            }
+
+            .filter-option input[type="checkbox"]:checked + label:hover {
+                background-color: #3da978;
+            }

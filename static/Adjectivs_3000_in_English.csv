@@ -1,0 +1,121 @@
+words_en,meaning_words_en,statment_words_en,meaning_words_ar,statment_words_ar,words_ar,id,stat
+Different,Not the same as others,These twins have different personalities.,ليس مثل الآخرين,هذه التوائم لها شخصيات مختلفة.,مختلف,1,0
+Available,Ready for use or obtainable,The tickets are available for purchase.,جاهز للاستخدام أو الحصول على,التذاكر متاحة للشراء.,متاح,2,0
+Able,Capable of doing something,She is able to solve complex problems.,قادر على فعل شيء ما,هي قادرة على حل المشاكل المعقدة.,قادر,3,0
+Difficult,Requiring a lot of effort,Learning a new language can be difficult.,تتطلب الكثير من الجهد,قد يكون تعلم لغة جديدة أمرًا صعبًا.,صعب,4,0
+Useful,Providing benefit or advantage,This tool is useful for various tasks.,توفير الفائدة أو الميزة,هذه الأداة مفيدة للمهام المختلفة.,مفيد,5,0
+Scared,Frightened or anxious,The child is scared of the dark.,خائف أو قلق,الطفل خائف من الظلام.,مقدس,6,0
+Emotional,Relating to emotions,She had an emotional reaction to the news.,فيما يتعلق بالعواطف,كان لديها رد فعل عاطفي على الأخبار.,عاطفي,7,0
+Political,Relating to government,The diplomat has a political background.,فيما يتعلق بالحكومة,الدبلوماسي لديه خلفية سياسية.,سياسي,8,0
+Similar,Having resemblance,The two paintings are similar in style.,وجود تشابه,اللوحتان متشابهتان في الأسلوب.,مشابه,9,0
+Healthy,In good health,Eating fruits is essential for a healthy lifestyle.,في صحة جيدة,تناول الفواكه أمر ضروري لنمط الحياة الصحي.,صحيح,10,0
+Financial,Relating to money or finances,She has a strong financial background.,فيما يتعلق بالمال أو المالية,لديها خلفية مالية قوية.,مالي,11,0
+Medical,Relating to medicine or health,The hospital provides medical services.,فيما يتعلق بالطب أو الصحة,يقدم المستشفى الخدمات الطبية.,طبي,12,0
+Strong,Having great power or force,Weightlifting helps in building strong muscles.,امتلاك قوة أو قوة كبيرة,رفع الأثقال يساعد في بناء عضلات قوية.,قوي,13,0
+Expensive,Costing a lot of money,Luxury items are often expensive.,تكلف الكثير من المال,غالبًا ما تكون العناصر الفاخرة باهظة الثمن.,غالي,14,0
+Pregnant,Carrying an unborn child,The pregnant woman is due next month.,حمل طفل لم يولد بعد,من المقرر أن تكون المرأة الحامل الشهر المقبل.,حامل,15,0
+Intelligent,Having high mental capacity,The scientist is known for his intelligent approach.,وجود قدرة عقلية عالية,يشتهر العالم بنهجه الذكي.,ذكي,16,0
+Interesting,Attracting attention or curiosity,The book had an interesting plot that kept readers engaged.,جذب الانتباه أو الفضول,كان للكتاب مؤامرة مثيرة للاهتمام التي أبقت القراء مخطوبة.,مثير للاهتمام,17,0
+Helpful,Giving assistance or support,His guidance was very helpful in completing the project.,تقديم المساعدة أو الدعم,كانت إرشاداته مفيدة للغاية في إكمال المشروع.,متعاون,18,0
+Rare,Not occurring very often,The species of bird is rare in this region.,لا يحدث في كثير من الأحيان,أنواع الطيور نادرة في هذه المنطقة.,نادر,19,0
+Important,Of great significance or value,Time management is important for productivity.,ذات أهمية كبيرة أو قيمة,إدارة الوقت مهمة للإنتاجية.,مهم,20,0
+Technical,Relating to technology,This job requires technical skills.,فيما يتعلق بالتكنولوجيا,هذه الوظيفة تتطلب مهارات فنية.,اِصطِلاحِيّ,21,0
+Aware,Conscious or informed,He is aware of the importance of time management.,واعية أو مستنيرة,إنه يدرك أهمية إدارة الوقت.,واعي,22,0
+Capable,Having the ability,She is capable of handling multiple tasks simultaneously.,وجود القدرة,هي قادرة على التعامل مع مهام متعددة في وقت واحد.,قادر,23,0
+Foreign,From another country,Learning a foreign language can be challenging.,من بلد آخر,تعلم لغة أجنبية يمكن أن يكون تحديا.,أجنبي,24,0
+Practical,Useful or effective,The course provides practical skills for real-world situations.,مفيد أو فعال,يوفر الدورة مهارات عملية لحالات العالم الحقيقي.,عملي,25,0
+Psychological,Relating to the mind or emotions,The movie explores psychological aspects of human behavior.,فيما يتعلق بالعقل أو العواطف,يستكشف الفيلم الجوانب النفسية للسلوك البشري.,نفسي,26,0
+Suitable,Appropriate or fitting,This dress is suitable for a formal occasion.,مناسب أو مناسب,هذا الفستان مناسب لمناسبة رسمية.,مناسب,27,0
+Unusual,Not common or typical,The unusual weather patterns surprised the meteorologists.,ليست شائعة أو نموذجية,فاجأت أنماط الطقس غير العادية خبراء الأرصاد.,غير عادي,28,0
+Acceptable,Meeting the required standards,The proposal needs to be acceptable to all team members.,تلبية المعايير المطلوبة,يجب أن يكون الاقتراح مقبولًا لجميع أعضاء الفريق.,مقبول,29,0
+Boring,Dull or uninteresting,The lecture was long and boring.,مملة أو غير مهتمة,كانت المحاضرة طويلة ومملة.,ممل,30,0
+Desperate,Reckless or without hope,He took desperate measures to save his failing business.,متهور أو بدون أمل,لقد اتخذ تدابير يائسة لإنقاذ أعماله الفاشلة.,متحرّق إلى,31,0
+Anxious,Nervous or worried,She felt anxious before the important presentation.,عصبي أو قلق,شعرت بالقلق قبل العرض المهم.,قلق,32,0
+Curious,Eager to know or learn,The child's curious nature led him to explore new things.,حريص على معرفة أو التعلم,قادته الطبيعة الغريبة للطفل إلى استكشاف أشياء جديدة.,فضولي,33,0
+Weak,Lacking strength or vigor,"After the illness, he felt weak and tired.",تفتقر إلى القوة أو النشاط,بعد المرض ، شعر بالضعف والتعب.,ضعيف,34,0
+Confident,Self-assured or certain,She is confident in her ability to succeed.,تأمين ذاتي أو مؤكد,إنها واثقة من قدرتها على النجاح.,واثق,35,0
+Embarrassed,Feeling self-conscious or ashamed,He was embarrassed by the unexpected attention.,الشعور بالوعي الذاتي أو الخجل,كان محرجا من الاهتمام غير المتوقع.,مُحرَج,36,0
+Guilty,Feeling responsible for wrongdoing,The defendant looked guilty during the trial.,الشعور بالمسؤولية عن مخالفات,بدا المدعى عليه مذنبا خلال المحاكمة.,مذنب,37,0
+Lonely,Solitary or lacking companionship,The old man felt lonely after his wife passed away.,الانفرادي أو الافتقار إلى الرفقة,شعر الرجل العجوز بالوحدة بعد وفاة زوجته.,وحيد,38,0
+Tall,Having greater height,The basketball player is tall and agile.,وجود ارتفاع أكبر,لاعب كرة السلة طويل القامة ورشيق.,طويل,39,0
+Legal,Conforming to the law,The contract is legal and binding.,يتوافق مع القانون,العقد قانوني وملزم.,قانوني,40,0
+Still,Not moving or stationary,The pond water was so still that it reflected the sky perfectly.,لا تتحرك أو ثابتة,كان ماء البركة لا يزال يعكس السماء تمامًا.,ما زال,41,0
+Human,"Of, relating to, or characteristic of humans",The study aims to understand human behavior.,من ، أو فيما يتعلق ، أو خصائص البشر,تهدف الدراسة إلى فهم السلوك البشري.,بشر,42,0
+Both,Two together or in succession,Both options are suitable for our project.,اثنان معا أو متتالي,كلا الخيارين مناسب لمشروعنا.,كلاهما,43,0
+Local,Relating to or occurring in a particular area,The local market offers fresh produce.,فيما يتعلق أو يحدث في منطقة معينة,يقدم السوق المحلي منتجات جديدة.,محلي,44,0
+General,Affecting or including the whole,She provided a general overview of the project.,التأثير أو بما في ذلك الكل,قدمت نظرة عامة عامة على المشروع.,عام,45,0
+Hard,Difficult or requiring a lot of effort,Learning a new language can be hard but rewarding.,صعب أو يتطلب الكثير من الجهد,تعلم لغة جديدة يمكن أن يكون صعبًا ولكنه مجزي.,صعب,46,0
+Possible,Able to be done or achieved,"With proper planning, success is possible.",قادر على القيام به أو تحقيقه,مع التخطيط السليم ، النجاح ممكن.,ممكن,47,0
+Personal,Relating to an individual,His personal opinions do not represent the company's stance.,فيما يتعلق بالفرد,آرائه الشخصية لا تمثل موقف الشركة.,شخصي,48,0
+Physical,Relating to the body as opposed to the mind,Regular exercise is important for physical health.,فيما يتعلق بالجسد بدلاً من العقل,التمرينات المنتظمة مهمة للصحة البدنية.,بدني,49,0
+Potential,Having the capacity to become or develop into something,The young artist showed great potential.,امتلاك القدرة على أن تصبح أو التطور إلى شيء ما,أظهر الفنان الشاب إمكانات كبيرة.,محتمل,50,0
+Alternative,Available as another possibility,"If Plan A fails, we should consider the alternative.",متاح كاحتمال آخر,إذا فشلت التخطيط A ، فيجب أن نفكر في البديل.,بديل,51,0
+Working,Functioning or in operation,The new machine is working efficiently.,العمل أو في العملية,الجهاز الجديد يعمل بكفاءة.,عمل,52,0
+Clear,"Easy to perceive, understand, or interpret",The instructions were clear and concise.,من السهل إدراك أو فهم أو تفسير,كانت التعليمات واضحة وموجزة.,واضح,53,0
+Worth,Having a specified value or equivalent in money,The antique painting is worth a considerable amount.,وجود قيمة محددة أو ما يعادلها في المال,اللوحة العتيقة تستحق كمية كبيرة.,يستحق,54,0
+Necessary,Required to be done or achieved,A healthy diet is necessary for overall well-being.,مطلوب أن يتم أو تحقيقه,نظام غذائي صحي ضروري للرفاهية بشكل عام.,ضروري,55,0
+Positive,Characterized by the presence of features or qualities rather than their absence,Maintaining a positive attitude is crucial in challenging situations.,يتميز بوجود ميزات أو صفات بدلاً من غيابهم,الحفاظ على الموقف الإيجابي أمر بالغ الأهمية في المواقف الصعبة.,إيجابي,56,0
+Creative,Relating to or involving the use of the imagination or original ideas,The artist showcased her creative talent in the exhibition.,فيما يتعلق أو ينطوي على استخدام الخيال أو الأفكار الأصلية,عرضت الفنانة موهبتها الإبداعية في المعرض.,مبدع,57,0
+Late,Occurring or arriving after the expected time,I apologize for being late to the meeting.,يحدث أو الوصول بعد الوقت المتوقع,أعتذر عن تأخر الاجتماع.,متأخر,58,0
+Glad,Pleased or delighted,She was glad to receive positive feedback on her work.,سعيد أو مسرور,كانت سعيدة لتلقي ردود فعل إيجابية على عملها.,مسرور,59,2
+Special,"Better, greater, or otherwise different from what is usual",Today is a special occasion that calls for celebration.,أفضل أو أكبر أو مختلفًا عن ما هو معتاد,اليوم هي مناسبة خاصة تدعو للاحتفال.,خاص,60,0
+Content,Satisfied or pleased with what one has,"After achieving her goals, she felt content.",راضٍ أو مسرور بما لديه,بعد تحقيق أهدافها ، شعرت بالمضمون.,محتوى,61,1
+Effective,Producing the intended or expected result,The new marketing strategy was highly effective.,إنتاج النتيجة المقصودة أو المتوقعة,كانت استراتيجية التسويق الجديدة فعالة للغاية.,فعال,62,0
+Regular,Occurring or done repeatedly and consistently,She has a regular fitness routine.,تحدث أو تتم بشكل متكرر ومتكرر,لديها روتين اللياقة العادي.,عادي,63,0
+Fast,Moving or capable of moving quickly,The cheetah is known for its fast running speed.,التحرك أو القادر على التحرك بسرعة,تشتهر الفهد بسرعة الجري.,سريع,64,0
+Independent,Free from outside control or not depending on another's authority,The teenager wanted to be more independent in making decisions.,خالية من السيطرة الخارجية أو لا اعتمادًا على سلطة أخرى,أراد المراهق أن يكون أكثر استقلالية في اتخاذ القرارات.,مستقل,65,0
+Complete,Having all the necessary parts or elements,Please submit the complete application form.,امتلاك جميع الأجزاء أو العناصر اللازمة,يرجى إرسال نموذج الطلب الكامل.,مكتمل,66,0
+Active,Engaging or ready to engage in physically energetic pursuits,Staying active through exercise is important for health.,الانخراط أو الاستعداد للانخراط في مساعي حيوية جسدية,الحفاظ على النشاط من خلال التمرين أمر مهم للصحة.,نشيط,67,0
+Negative,"Expressing or implying denial, disagreement, or refusal",His negative comments affected the team morale.,التعبير عن أو توضيح الرفض أو الخلاف أو الرفض,أثرت تعليقاته السلبية على معنويات الفريق.,سلبي,68,0
+Safe,Protected from or not exposed to danger or risk,Wearing a helmet is essential for a safe bike ride.,محمية من أو لا تتعرض للخطر أو المخاطر,ارتداء خوذة أمر ضروري لركوب الدراجة الآمن.,آمن,69,0
+Wrong,Incorrect or not in accordance with the facts,It is wrong to assume without proper information.,غير صحيح أو لا يتوافق مع الحقائق,من الخطأ أن نفترض بدون معلومات مناسبة.,خطأ,70,0
+Quick,Moving or able to move with great speed,The quick response to the emergency saved lives.,التحرك أو القادر على التحرك بسرعة كبيرة,الاستجابة السريعة للحياة المحفوظة في حالات الطوارئ.,سريع,71,0
+Ready,Fully prepared or in a suitable state for immediate action,The team is ready for the upcoming challenge.,مستعدة بالكامل أو في حالة مناسبة للعمل الفوري,الفريق مستعد للتحدي القادم.,مستعد,72,0
+Straight,Extending or moving uniformly in one direction only,The road ahead is long and straight.,تمتد أو يتحرك بشكل موحد في اتجاه واحد فقط,الطريق إلى الأمام طويل ومستقيم.,مستقيم,73,0
+Pretty,Attractive in a delicate way without being truly beautiful,She looked pretty in her floral dress.,جذابة بطريقة حساسة دون أن تكون جميلة حقًا,نظرت جميلة في ثوبها الأزهار.,جميل,74,0
+Unique,Being the only one of its kind,Each snowflake is unique in its structure.,كونه الوحيد من نوعه,كل ندفة الثلج فريدة من نوعها في هيكلها.,فريد,75,0
+Private,Not to be shared with or disclosed to others,The diary contains private thoughts and reflections.,لا يمكن مشاركتها أو الكشف عنها للآخرين,اليوميات تحتوي على أفكار خاصة وانعكاسات.,خاص,76,0
+Separate,Not joined or touching others,"The two rooms are separate, providing privacy.",لم ينضم أو لمس الآخرين,الغرفتان منفصلتان ، مما يوفر الخصوصية.,متفرق,77,0
+Familiar,Well-known or easily recognized,"The song sounded familiar, but she couldn't recall the title.",معروف أو معروف بسهولة,بدت الأغنية مألوفة ، لكنها لم تستطع تذكر العنوان.,مألوف,78,0
+Official,"Relating to an authority or public body and its duties, actions, and responsibilities",The official statement clarified the company's position.,فيما يتعلق بسلطة أو هيئة عامة وواجباتها وأفعالها ومسؤولياتها,أوضح البيان الرسمي موقف الشركة.,رسمي,79,0
+Alone,Having no one else present,She preferred to spend some time alone for introspection.,عدم وجود أي شخص آخر,فضلت قضاء بعض الوقت بمفردها للتأمل.,وحيد,80,0
+Comfortable,Providing physical ease and relaxation,"The sofa was comfortable, making it perfect for relaxation.",توفير السهولة الجسدية والاسترخاء,كانت الأريكة مريحة ، مما يجعلها مثالية للاسترخاء.,مريح,81,0
+Rich,Having wealth or great possessions,The business tycoon is known for his rich lifestyle.,وجود ثروة أو ممتلكات عظيمة,يُعرف قطب الأعمال بأسلوب حياته الغني.,ثري,82,0
+Heavy,Weighing a lot or difficult to lift,"The suitcase was heavy, filled with clothes and souvenirs.",وزن الكثير أو صعوبة في الرفع,كانت الحقيبة ثقيلة ، مليئة بالملابس والهدايا التذكارية.,ثقيل,83,0
+Valuable,Having considerable monetary worth,The antique necklace is valuable and has historical significance.,وجود قيمة نقدية كبيرة,قلادة العتيقة ذات أهمية ولها أهمية تاريخية.,قيّم,84,0
+Leading,Having the highest position or ranking,The company is a leading player in the technology industry.,الحصول على أعلى موقف أو ترتيب,الشركة هي لاعب رائد في صناعة التكنولوجيا.,قيادة,85,0
+Slow,Moving or doing something at a low speed,The turtle moved at a slow pace across the sand.,التحرك أو القيام بشيء بسرعة منخفضة,تحركت السلحفاة بوتيرة بطيئة عبر الرمال.,بطيء,86,0
+Secret,Kept hidden from knowledge or view,She shared a secret with her best friend.,أبقى مخفيًا عن المعرفة أو العرض,شاركت سرًا مع أفضل صديق لها.,سر,87,0
+Cheap,Inexpensive or relatively low in price,The store offered cheap clothes during the sale.,غير مكلفة أو منخفضة نسبيا في السعر,قدم المتجر ملابس رخيصة أثناء البيع.,رخيص,88,0
+Deep,Extending far down or inwards,The ocean is deep and full of undiscovered mysteries.,يمتد إلى أسفل أو إلى الداخل,المحيط عميق ومليء بالألغاز غير المكتشفة.,عميق,89,0
+Formal,"Following established forms, conventions, or rules",The event requires formal attire and proper etiquette.,بعد النماذج المحددة أو الاتفاقيات أو القواعد,يتطلب الحدث ملابس رسمية وآداب مناسبة.,رَسمِيّ,90,0
+Lost,Unable to find one's way or unable to be recovered,She realized she was lost in the unfamiliar neighborhood.,غير قادر على إيجاد طريقة أو غير قادر على استردادها,أدركت أنها ضاعت في الحي غير المألوف.,ضائع,91,0
+Smooth,Having an even and regular surface or consistency,The baby's skin was soft and smooth.,وجود سطح أو تناسق متساوٍ ومنتظم,كان جلد الطفل ناعمًا وسلسًا.,سلس,92,0
+Equal,"Being the same in quantity, size, degree, or value","In a fair competition, all participants have an equal chance.",أن تكون كما هو في الكمية أو الحجم أو الدرجة أو القيمة,في مسابقة عادلة ، يتمتع جميع المشاركين بفرصة متساوية.,متساوي,93,0
+Firm,Resolute and determined,The manager took a firm stance on workplace ethics.,حازم وحزم,اتخذ المدير موقفا حازما من أخلاقيات مكان العمل.,حازم,94,0
+Sensitive,Easily affected or offended by external conditions,Some people are sensitive to changes in temperature.,تأثر بسهولة أو الإساءة إلى الشروط الخارجية,بعض الناس حساسون للتغيرات في درجة الحرارة.,حساس,95,0
+Soft,Having a pleasing texture or being gentle to the touch,The blanket was soft and cozy.,وجود نسيج ممتع أو أن تكون لطيفًا لللمس,كانت البطانية ناعمة ومريحة.,ناعم,96,0
+Weird,Suggesting something supernatural or uncanny,"The old house had a weird atmosphere, giving chills to visitors.",اقتراح شيء خارق أو غريب,كان للمنزل القديم جو غريب ، يعطي قشعريرة للزوار.,غريب,97,0
+Solid,"Firm, stable, and not easily broken or destroyed",The foundation of the building is solid and secure.,شركة ، مستقرة ، ولا يمكن كسرها أو تدميرها بسهولة,أساس المبنى صلب وآمن.,صلب,98,0
+Wise,"Having or showing experience, knowledge, and good judgment",The wise elder offered valuable advice to the young generation.,وجود أو إظهار الخبرة والمعرفة والحكم الجيد,قدم The Wise Elder نصيحة قيمة للجيل الشاب.,حكيم,99,0
+Busy,"Engaged in activity, often with a crowded schedule",She's too busy to join us for dinner tonight.,تشارك في النشاط ، وغالبًا مع جدول زمني مزدحم,إنها مشغولة جدًا بالانضمام إلينا لتناول العشاء الليلة.,مشغول,100,0
+Proud,Feeling deep pleasure or satisfaction as a result of one's achievements or qualities,She felt proud of her team's success in the competition.,الشعور بالسرور العميق أو الرضا نتيجة لإنجازات الفرد أو الصفات,شعرت بالفخر بنجاح فريقها في المسابقة.,فخور,101,0
+Sad,Feeling or showing sorrow or unhappiness,The news about the accident made her feel sad.,الشعور أو إظهار الحزن أو التعاسة,الأخبار عن الحادث جعلتها تشعر بالحزن.,حزين,102,0
+Sick,Affected by physical or mental illness,He stayed home from work because he was feeling sick.,متأثر بالمرض البدني أو العقلي,بقي في المنزل من العمل لأنه كان يشعر بالمرض.,مريض,103,0
+Strange,Unusual or surprising in a way that is unsettling or hard to understand,The strange noise in the night made them uneasy.,غير عادي أو مفاجئ بطريقة مزعجة أو يصعب فهمها,الضوضاء الغريبة في الليل جعلتهم غير مرتاحين.,غريب,104,0
+Illegal,Contrary to or forbidden by law,Driving under the influence of alcohol is illegal.,على عكس القانون أو ممنوع القانون,القيادة تحت تأثير الكحول غير قانوني.,غير قانوني,105,0
+Ordinary,With no special or distinctive features,The movie told the story of an ordinary man's life.,مع عدم وجود ميزات خاصة أو مميزة,روى الفيلم قصة حياة رجل عادي.,عادي,106,0
+Usual,"Occurring, found, or done often",Having a cup of coffee in the morning is a usual routine.,تحدث ، أو العثور عليها ، أو القيام بها في كثير من الأحيان,إن تناول فنجان من القهوة في الصباح هو روتين معتاد.,معتاد,107,0
+Brave,Ready to face danger or endure pain; showing courage,The firefighter displayed brave actions during the rescue.,على استعداد لمواجهة الخطر أو تحمل الألم ؛ تظهر الشجاعة,عرض رجال الإطفاء إجراءات شجاعة أثناء الإنقاذ.,شجاع,108,0
+Calm,"Not showing or feeling nervousness, anger, or other strong emotions",She remained calm during the stressful situation.,عدم إظهار أو الشعور بالتوتر أو الغضب أو المشاعر القوية الأخرى,ظلت هادئة خلال الوضع المجهد.,هادئ,109,0
+Dirty,Covered or marked with an unclean substance,The children came home with dirty clothes after playing in the mud.,مغطاة أو تميز بمواد نجسة,عاد الأطفال إلى المنزل بملابس قذرة بعد اللعب في الوحل.,متسخ,110,0
+Honest,Free of deceit and untruthfulness; sincere,He appreciated her honest and straightforward communication.,خالية من الخداع والخداع ؛ مخلص,وأعرب عن تقديرها لتواصلها الصادق والمباشر.,أمين,111,0
+Quiet,Making little or no noise,The library is a quiet place for studying and reading.,صنع ضوضاء ضئيلة أو معدومة,المكتبة هي مكان هادئ للدراسة والقراءة.,هادئ,112,0
+Brilliant,Exceptionally clever or talented,The scientist came up with a brilliant solution to the problem.,ذكي أو موهوب بشكل استثنائي,توصل العالم إلى حل رائع للمشكلة.,باهِر,113,0
+Neat,Arranged in an orderly and tidy way,His desk was always neat and well-organized.,مرتبة بطريقة منظمة ومرتبة,كان مكتبه دائمًا أنيقًا ومنظمًا جيدًا.,مرتب,114,0
+Slight,Small in degree or extent,She noticed a slight improvement in her performance.,صغير في درجة أو مدى,لاحظت تحسنًا طفيفًا في أدائها.,طفيف,115,0
+Smart,Having or showing a quick-witted intelligence,The smart student easily grasped complex concepts.,امتلاك أو إظهار ذكاء سريع,الطالب الذكي يسهل فهم المفاهيم المعقدة.,ذكي,116,0
+Stupid,Lacking intelligence or common sense,It was a stupid mistake that could have been avoided.,نقص الذكاء أو الحس السليم,لقد كان خطأ غبي كان يمكن تجنبه.,غبي,117,0
+First,Coming before all others in time or order,She was the first to arrive at the meeting.,قادم أمام الآخرين في الوقت المناسب أو النظام,كانت أول من وصل إلى الاجتماع.,أولاً,118,0
+Future,Yet to come or happen,Planning for the future is essential for success.,بعد أن تأتي أو يحدث,التخطيط للمستقبل ضروري للنجاح.,مستقبل,119,0
+Kind,"Having or showing a friendly, generous, or considerate nature",The kind neighbor always helps others in need.,امتلاك أو إظهار الطبيعة الودية أو السخية أو المرتفعة,الجار اللطيف يساعد الآخرين دائمًا.,عطوف,120,0

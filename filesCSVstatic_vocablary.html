@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js Vocabulary App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style src="css/stayle.css"></style>
+</head>
+<body>
+    <div class="container py-5" id="app">
+        <div class="text-center mb-5">
+            <h1><i class="fab fa-vuejs"></i> Vue.js Vocabulary App</h1>
+            <p class="lead">Learn from CSV files in your static directory</p>
+        </div>
+        
+        <!-- File Selection -->
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Select Vocabulary File</h5>
+                        
+                       
+                        
+                        <input type="file" id="fileInput" style="display: none;" 
+                               @change="handleFileSelection" webkitdirectory directory multiple/>
+                        
+                        <div v-if="availableFiles.length > 0" class="mt-4">
+                            <h6>Available vocabulary files:</h6>
+                            <div class="d-flex flex-wrap justify-content-center gap-2">
+                                <button v-for="file in availableFiles" :key="file" 
+                                        @click="loadStaticFile(file)"
+                                        class="btn btn-sm btn-outline-secondary">
+                                    {{ file }}
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Loading State -->
+        <div v-if="loading" class="text-center py-5">
+            <div class="loading-spinner"></div>
+            <p class="mt-3">Loading vocabulary data...</p>
+        </div>
+        
+        <!-- Error Display -->
+        <div v-if="error" class="alert alert-danger text-center">
+            <i class="fas fa-exclamation-triangle"></i> {{ error }}
+        </div>
+        
+        <!-- Vocabulary Display -->
+        <div v-if="type == 0 " class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body text-center vocab-display">
+                        <div class="word">{{ currentWord.words }}</div>
+                        <div class="meaning">{{ currentWord.mean }}</div>
+                        <div v-if="currentWord.sentence" class="sentence">
+                            "{{ currentWord.sentence }}"
+                        </div>
+                        <div v-if="currentWord.translation" class="translation">
+                            {{ currentWord.translation }}
+                        </div>
+                        
+                        <div class="d-flex justify-content-center gap-3 mt-4">
+                            <button @click="prevWord" class="btn btn-outline-secondary">
+                                <i class="fas fa-arrow-left"></i> Previous
+                            </button>
+                            <span class="align-self-center">
+                                {{ currentIndex + 1 }} of {{ words.length }}
+                            </span>
+                            <button @click="nextWord" class="btn btn-primary">
+                                Next <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <!-- Verb Display -->
+        <div v-if="type == 1 " class="row justify-content-center">
+        
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body text-center vocab-display">
+                        <div class="word">{{ currentVerbs.vrebs_en }}</div>
+                        <div class="meaning">{{ currentVerbs.vreb_ar }}</div>
+                        <div v-if="currentVerbs.mean1" class="sentence">
+                            "{{ currentVerbs.mean_ar_1 }}"
+                        </div>
+                        <div v-if="currentVerbs.mean1" class="translation">
+                            {{ currentVerbs.mean2 }}
+                            {{ currentVerbs.mean_ar_2 }}
+                        </div>
+                        
+                        <div class="d-flex justify-content-center gap-3 mt-4">
+                            <button @click="prevWord" class="btn btn-outline-secondary">
+                                <i class="fas fa-arrow-left"></i> Previous
+                            </button>
+                            <span class="align-self-center">
+                                {{ currentIndex + 1 }} of {{ verbs.length }}
+                            </span>
+                            <button @click="nextWord" class="btn btn-primary">
+                                Next <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+          <!-- Adjectivs Display -->
+          <div v-if="type == 2 " class="row justify-content-center">
+            adjectvs 
+            <div class="col-md-8">
+                <div class="card">
+                    					
+                    <div class="card-body text-center vocab-display">
+                        {{ currentAdjectvs.id }}
+                        <div class="word">{{ currentAdjectvs.words_en }}</div>
+                        <div class="meaning">{{ currentAdjectvs.words_ar }}</div>
+                        <div v-if="currentAdjectvs.statment_words_en" class="sentence">
+                            "{{ currentAdjectvs.statment_words_en }}"
+                        </div>
+                        <div v-if="currentAdjectvs.statment_words_ar" class="sentence">
+                            "{{ currentAdjectvs.statment_words_ar }}"
+                        </div>
+                        <div v-if="currentAdjectvs.meaning_words_en" class="translation">
+                            "{{ currentAdjectvs.meaning_words_en }}"
+                            {{ currentAdjectvs.meaning_words_ar }}
+                        </div>
+                        
+                        <div class="d-flex justify-content-center gap-3 mt-4">
+                            <button @click="prevWord" class="btn btn-outline-secondary">
+                                <i class="fas fa-arrow-left"></i> Previous
+                            </button>
+                            <span class="align-self-center">
+                                {{ currentIndex + 1 }} of {{ words.length }}
+                            </span>
+                            <button @click="nextWord" class="btn btn-primary">
+                                Next <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+
+                        <div class="d-flex justify-content-center gap-3 mt-4">
+                            <button @click="updataCellEdit(currentIndex , currentAdjectvs.words_en , 2 )" class="btn btn-success">
+                                <i class="fas fa-check"></i> Know It
+                            </button>
+                            <button @click="markKnown" class="btn btn-warning">
+                                <i class="fas fa-redo"></i> Review
+                            </button>
+                            <button @click="resetProgress" class="btn btn-outline-danger">
+                                <i class="fas fa-sync-alt"></i> New Words
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+    <script src="js/app_static_vocabulary.js"> </script>
+  
+</body>
+</html>
